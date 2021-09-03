@@ -1,0 +1,40 @@
+title: Mana
+email: mihou@manabot.fun
+description: Mana is a free Discord bot that brings a lot of anime into your server.
+baseurl: ""
+url: "" 
+twitter_username: mihoush
+github_username:  shindoumihou
+
+# Build settings
+theme: just-the-docs
+
+aux_links:
+  "Main Website":
+    - "https://manabot.fun"
+  "Discord":
+    - "https://manabot.fun/support"
+  "GitHub":
+    - "https://github.coom/ManaNet"
+
+color_scheme: dark
+
+gh_edit_link: true
+gh_edit_link_text: "Edit on GitHub"
+gh_edit_repository: "https://github.com/ManaNet/new-docs"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 6
+  preview_words_after: 6
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+plugins:
+  - jekyll-feed
+  - jemoji
